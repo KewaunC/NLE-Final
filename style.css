@@ -14,7 +14,10 @@ body{
 
 body.dark-mode{
     background: rgb(27, 27, 34);
+    color: white;
 }
+
+
 
 nav{
     display: flex;
@@ -121,6 +124,7 @@ nav span{
     display: flex;
     background-color: black;
     color: white;
+    height: 50vh;
   }
   
   .left {
@@ -128,23 +132,47 @@ nav span{
     font-size: 24px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
   }
   
   .right {
-    flex: 1;
-    display: flex;
+    flex: 1;    
     justify-content: center;
+    align-items: center;
   }
 
 h2{
     text-align: center;
 }
 
-.products{
-    background-color: red;
+.products , .merchandise{
     text-align: center;   
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    
 }
+h1{
+    text-align: center;
+}
+
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+div h2{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.message{
+    padding: 15px;
+    border: 1px solid red;
+    margin: 10px;
+}
+

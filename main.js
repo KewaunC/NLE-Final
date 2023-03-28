@@ -18,3 +18,4 @@ bgModeBtn.onclick = function(){
     bgModeIcon.classList.toggle("fa-moon-o");
     sectionHeader.classList.toggle("dark-mode");
 }
+
